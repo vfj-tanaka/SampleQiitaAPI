@@ -16,6 +16,16 @@
 		FCE3208D28BC8E130059F159 /* SampleQiitaAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3208C28BC8E130059F159 /* SampleQiitaAPITests.swift */; };
 		FCE3209728BC8E130059F159 /* SampleQiitaAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3209628BC8E130059F159 /* SampleQiitaAPIUITests.swift */; };
 		FCE3209928BC8E130059F159 /* SampleQiitaAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3209828BC8E130059F159 /* SampleQiitaAPIUITestsLaunchTests.swift */; };
+		FCE320AE28BC92E70059F159 /* QiitaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE320AD28BC92E70059F159 /* QiitaAPI.swift */; };
+		FCE320B328BC947D0059F159 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = FCE320B228BC947D0059F159 /* Moya */; };
+		FCE320B528BC947D0059F159 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = FCE320B428BC947D0059F159 /* RxMoya */; };
+		FCE320B828BC94BC0059F159 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FCE320B728BC94BC0059F159 /* RxCocoa */; };
+		FCE320BA28BC94BC0059F159 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = FCE320B928BC94BC0059F159 /* RxRelay */; };
+		FCE320BC28BC94BC0059F159 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FCE320BB28BC94BC0059F159 /* RxSwift */; };
+		FCE320BE28BC98AB0059F159 /* QiitaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE320BD28BC98AB0059F159 /* QiitaModel.swift */; };
+		FCE320C028BC9DD20059F159 /* QiitaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE320BF28BC9DD20059F159 /* QiitaViewModel.swift */; };
+		FCE320C328BDDA9E0059F159 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE320C128BDDA9E0059F159 /* TableViewCell.swift */; };
+		FCE320C428BDDA9E0059F159 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE320C228BDDA9E0059F159 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,11 @@
 		FCE3209228BC8E130059F159 /* SampleQiitaAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleQiitaAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE3209628BC8E130059F159 /* SampleQiitaAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleQiitaAPIUITests.swift; sourceTree = "<group>"; };
 		FCE3209828BC8E130059F159 /* SampleQiitaAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleQiitaAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCE320AD28BC92E70059F159 /* QiitaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaAPI.swift; sourceTree = "<group>"; };
+		FCE320BD28BC98AB0059F159 /* QiitaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaModel.swift; sourceTree = "<group>"; };
+		FCE320BF28BC9DD20059F159 /* QiitaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaViewModel.swift; sourceTree = "<group>"; };
+		FCE320C128BDDA9E0059F159 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FCE320C228BDDA9E0059F159 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE320B828BC94BC0059F159 /* RxCocoa in Frameworks */,
+				FCE320B528BC947D0059F159 /* RxMoya in Frameworks */,
+				FCE320BC28BC94BC0059F159 /* RxSwift in Frameworks */,
+				FCE320BA28BC94BC0059F159 /* RxRelay in Frameworks */,
+				FCE320B328BC947D0059F159 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +121,13 @@
 			children = (
 				FCE3207528BC8E120059F159 /* AppDelegate.swift */,
 				FCE3207728BC8E120059F159 /* SceneDelegate.swift */,
+				FCE320BD28BC98AB0059F159 /* QiitaModel.swift */,
 				FCE3207928BC8E120059F159 /* ViewController.swift */,
 				FCE3207B28BC8E120059F159 /* Main.storyboard */,
+				FCE320BF28BC9DD20059F159 /* QiitaViewModel.swift */,
+				FCE320AD28BC92E70059F159 /* QiitaAPI.swift */,
+				FCE320C228BDDA9E0059F159 /* TableViewCell.xib */,
+				FCE320C128BDDA9E0059F159 /* TableViewCell.swift */,
 				FCE3207E28BC8E130059F159 /* Assets.xcassets */,
 				FCE3208028BC8E130059F159 /* LaunchScreen.storyboard */,
 				FCE3208328BC8E130059F159 /* Info.plist */,
@@ -143,6 +168,13 @@
 			dependencies = (
 			);
 			name = SampleQiitaAPI;
+			packageProductDependencies = (
+				FCE320B228BC947D0059F159 /* Moya */,
+				FCE320B428BC947D0059F159 /* RxMoya */,
+				FCE320B728BC94BC0059F159 /* RxCocoa */,
+				FCE320B928BC94BC0059F159 /* RxRelay */,
+				FCE320BB28BC94BC0059F159 /* RxSwift */,
+			);
 			productName = SampleQiitaAPI;
 			productReference = FCE3207228BC8E120059F159 /* SampleQiitaAPI.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +247,10 @@
 				Base,
 			);
 			mainGroup = FCE3206928BC8E120059F159;
+			packageReferences = (
+				FCE320B128BC947D0059F159 /* XCRemoteSwiftPackageReference "Moya" */,
+				FCE320B628BC94BC0059F159 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = FCE3207328BC8E120059F159 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCE3208228BC8E130059F159 /* LaunchScreen.storyboard in Resources */,
+				FCE320C428BDDA9E0059F159 /* TableViewCell.xib in Resources */,
 				FCE3207F28BC8E130059F159 /* Assets.xcassets in Resources */,
 				FCE3207D28BC8E120059F159 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE320BE28BC98AB0059F159 /* QiitaModel.swift in Sources */,
 				FCE3207A28BC8E120059F159 /* ViewController.swift in Sources */,
 				FCE3207628BC8E120059F159 /* AppDelegate.swift in Sources */,
 				FCE3207828BC8E120059F159 /* SceneDelegate.swift in Sources */,
+				FCE320AE28BC92E70059F159 /* QiitaAPI.swift in Sources */,
+				FCE320C328BDDA9E0059F159 /* TableViewCell.swift in Sources */,
+				FCE320C028BC9DD20059F159 /* QiitaViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +643,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FCE320B128BC947D0059F159 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+		FCE320B628BC94BC0059F159 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FCE320B228BC947D0059F159 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCE320B128BC947D0059F159 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		FCE320B428BC947D0059F159 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCE320B128BC947D0059F159 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		FCE320B728BC94BC0059F159 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCE320B628BC94BC0059F159 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		FCE320B928BC94BC0059F159 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCE320B628BC94BC0059F159 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		FCE320BB28BC94BC0059F159 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCE320B628BC94BC0059F159 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FCE3206A28BC8E120059F159 /* Project object */;
 }
